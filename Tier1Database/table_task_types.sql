@@ -1,4 +1,6 @@
-drop table task_types;
+use esa;
+
+drop table if exists task_types;
 
 create table task_types
 (

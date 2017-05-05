@@ -1,3 +1,7 @@
+use esa;
+
+drop table if exists book;
+
 create table book
 (
 book_number integer NOT NULL AUTO_INCREMENT,
@@ -11,4 +15,4 @@ arrival_date varchar(255) not null,
 PRIMARY KEY(book_number)
 );
 
-insert into book (book_id, full_name, email, phone, book_date, occupants, arrival_date) values ('RussellBLee1957-1', 'Russell B Lee', 'rlee.sn@gmail.com', '2089959553', '2017-03-01', 1, '2017-03-10');
+insert into book (book_id, full_name, email, phone, book_date, occupants, arrival_date) values ('RussellBLee1957-1', 'Russell B Lee', 'rlee.sn@gmail.com', '2089959553', '2017-04-26', 1, '2017-07-08');

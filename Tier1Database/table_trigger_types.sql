@@ -1,8 +1,11 @@
-drop table trigger_types;
+use esa;
+
+drop table if exists trigger_types;
 
 create table trigger_types
 (
 tt_id bigint NOT NULL AUTO_INCREMENT,
+trigger_type varchar(255) not null,
 value_type varchar(35) not null,
 PRIMARY KEY(tt_id)
 );

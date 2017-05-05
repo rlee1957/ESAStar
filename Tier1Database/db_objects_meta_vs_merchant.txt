@@ -1,0 +1,7 @@
+Database Objects
+
+Meta Data			Merchant Data
+==============		===============
+room_items			mr_items
+room_item_classes	mr_defaults
+room_types			merchant_rooms		

@@ -91,8 +91,8 @@ return $res;
 function get_pdo($path)
 {	
 
-include("database/_mysql_credentials.php");
-include("database/database_settings.php");
+include($path."database/_mysql_credentials.php");
+include($path."database/database_settings.php");
 $driver = "mysql:host=".$host.";dbname=".$dbname;
 //echo($driver."<br />");
 try 

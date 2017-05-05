@@ -1,4 +1,6 @@
-drop table workflows;
+use esa;
+
+drop table if exists workflows;
 
 create table workflows
 (

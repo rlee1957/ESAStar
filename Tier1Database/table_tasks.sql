@@ -1,4 +1,6 @@
-drop table tasks;
+use esa;
+
+drop table if exists tasks;
 
 create table tasks
 (
